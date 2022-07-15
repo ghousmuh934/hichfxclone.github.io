@@ -1,0 +1,208 @@
+*{margin: 0;padding:0;box-sizing: border-box;}
+
+a{text-decoration: none;}
+
+li{list-style: none;}
+
+a:hover{text-decoration: none;}
+
+
+.header-pic{
+	width: 100%;
+	height: 127px;
+	background-color: #00265a;
+}
+.log-pic{
+	width: 300px;
+	height: 80px;
+	padding-top: 20px;
+	line-height: 80px;
+
+}
+.header-text{
+	width: 100%;
+	height: 82pt;
+	margin-top: -8px;
+	background-color: #13ca60;
+
+}
+.header-text h1{
+	font-size: 27pt;
+	text-align: center;
+	padding: 10px;
+	color:#fff;
+}
+.main-pic{
+	width: 100%;
+	height: 478pt;
+	
+	background-image:url('../images/main.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+
+}
+/**************************vertel**************************/
+.bg-color{
+	min-height: 361pt;
+	border-bottom: 4px solid #e2e2e2;
+	background-color: #ffffff;
+	position: relative;
+	margin-top: -100px;
+}
+.vestel-pic{
+	width: 167pt;
+	height: 140pt;
+	margin-left: 50pt;
+}
+.btn{
+	border: 0px;
+	width: 195pt;
+	height: 34pt;
+	font-size: 16pt;
+	background-color: #13ca60;
+	cursor: pointer;
+}
+/**************************walmart section**********************/
+.bg-color2{
+	 border-bottom: 4px solid #e2e2e2;
+	min-height:787pt;
+	margin-top: 1px;
+	background-color: #ffffff;
+}
+/****************************video section*********************/
+.bg-color3{
+
+	min-height: 307pt;
+	border-bottom: 4px solid #e2e2e2;
+	background-color: #ffffff;
+	position: relative;
+}
+.video{
+	border: 1px solid;
+	width: 50%;
+	height: 300px;
+	margin:auto;
+
+
+
+
+}
+/*****************************hicfx section********************/
+.bg-color4{
+	min-height: 186pt;
+
+	border-bottom: 4px solid #e2e2e2;
+	background-color: #ffffff;
+}
+.logo-pic{
+	height: 45pt;
+	width: 246pt;
+	
+	margin-top: 43pt;
+}
+.play-pic{
+	height: 36pt;
+	width: 116pt;
+	float: right;
+
+
+}
+.app-pic{
+	height: 36pt;
+	width: 116pt;
+
+
+
+	
+}
+.color{
+	background-color: #ebe2dd;
+}
+/***********************footer**********************************/
+.bg-color5{
+	border: 1px solid;
+	width: 100%;
+	min-height: 130pt;
+	background-color: #0e123e;
+}
+
+/*<!-- ***************************last*************************************** -->*/
+.bg-color6{
+	border: 1px solid;
+	width: 100%;
+	min-height: 40pt;
+
+	background-color: #0092ff;
+}
+
+
+
+
+
+/*-----------------Media queries------------------------------*/
+@media (min-width: 992px) 
+{
+
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.vestel-pic{
+		margin:auto;
+	}
+	
+} 
+
+@media (min-width: 575px) and (max-width: 767px)
+{
+	.vestel-pic{
+		margin:auto;
+	}
+	.play-pic{
+		position: absolute;
+		margin-left:100px;
+	}
+	.app-pic{
+		position: absolute;
+		margin-left: 270px;	
+	}
+
+}
+
+@media (min-width: 480px) and (max-width: 574px)
+{
+	.vestel-pic{
+		margin:auto;
+	}
+	.play-pic{
+		position: absolute;
+		margin-left:60px;
+	}
+	.app-pic{
+		position: absolute;
+		margin-left: 230px;	
+	}
+	.footer-text{
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 479px)
+{
+	.vestel-pic{
+		margin:auto;
+	}
+	.footer-text{
+		font-size: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
